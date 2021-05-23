@@ -5,7 +5,7 @@
 	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-	<file:config name="File_Config" doc:name="File Config" doc:id="b1640d2a-ab1a-466a-a576-17fd298be8f2" />
+	
 	<sub-flow name="process-file-sub-flow" doc:id="88bb4c6d-cbf1-4eef-9f09-5b98229696c3" >
 		<logger level="INFO" doc:name="start" doc:id="e3011444-5166-43c9-9c41-c9bd9378f702" message="request received "/>
 		<choice doc:name="Choice" doc:id="a365291c-15a3-4fb0-b03c-c54758774208" >
